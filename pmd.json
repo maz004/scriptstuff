@@ -1,0 +1,4847 @@
+{
+  "formatVersion": 0,
+  "pmdVersion": "6.55.0",
+  "timestamp": "2023-05-03T16:02:36.268Z",
+  "files": [
+    {
+      "filename": "../../../vuln-apps/WebGoat/.mvn/wrapper/MavenWrapperDownloader.java",
+      "violations": [
+        {
+          "beginline": 21,
+          "begincolumn": 1,
+          "endline": 117,
+          "endcolumn": 1,
+          "description": "All classes, interfaces, enums and annotations must belong to a named package",
+          "rule": "NoPackage",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#nopackage"
+        },
+        {
+          "beginline": 21,
+          "begincolumn": 37,
+          "endline": 117,
+          "endcolumn": 1,
+          "description": "All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.",
+          "rule": "UseUtilityClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#useutilityclass"
+        },
+        {
+          "beginline": 71,
+          "begincolumn": 19,
+          "endline": 73,
+          "endcolumn": 17,
+          "description": "Avoid empty catch blocks",
+          "rule": "EmptyCatchBlock",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#emptycatchblock"
+        },
+        {
+          "beginline": 90,
+          "begincolumn": 11,
+          "endline": 94,
+          "endcolumn": 9,
+          "description": "A catch statement should never catch throwable since it includes errors.",
+          "rule": "AvoidCatchingThrowable",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidcatchingthrowable"
+        },
+        {
+          "beginline": 109,
+          "begincolumn": 29,
+          "endline": 109,
+          "endcolumn": 31,
+          "description": "Ensure that resources like this ReadableByteChannel object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 111,
+          "begincolumn": 26,
+          "endline": 111,
+          "endcolumn": 28,
+          "description": "Ensure that resources like this FileOutputStream object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/it/java/org/owasp/webgoat/CSRFIntegrationTest.java",
+      "violations": [
+        {
+          "beginline": 172,
+          "begincolumn": 5,
+          "endline": 172,
+          "endcolumn": 30,
+          "description": "Assertion may be simplified using assertTrue",
+          "rule": "SimplifiableTestAssertion",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#simplifiabletestassertion"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/it/java/org/owasp/webgoat/CryptoIntegrationTest.java",
+      "violations": [
+        {
+          "beginline": 61,
+          "begincolumn": 12,
+          "endline": 61,
+          "endcolumn": 22,
+          "description": "The local variable name \u0027answer_user\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "LocalVariableNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablenamingconventions"
+        },
+        {
+          "beginline": 62,
+          "begincolumn": 12,
+          "endline": 62,
+          "endcolumn": 21,
+          "description": "The local variable name \u0027answer_pwd\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "LocalVariableNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablenamingconventions"
+        },
+        {
+          "beginline": 71,
+          "begincolumn": 12,
+          "endline": 71,
+          "endcolumn": 19,
+          "description": "The local variable name \u0027answer_1\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "LocalVariableNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablenamingconventions"
+        },
+        {
+          "beginline": 100,
+          "begincolumn": 12,
+          "endline": 100,
+          "endcolumn": 19,
+          "description": "The local variable name \u0027answer_1\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "LocalVariableNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablenamingconventions"
+        },
+        {
+          "beginline": 101,
+          "begincolumn": 12,
+          "endline": 101,
+          "endcolumn": 19,
+          "description": "The local variable name \u0027answer_2\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "LocalVariableNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablenamingconventions"
+        },
+        {
+          "beginline": 148,
+          "begincolumn": 51,
+          "endline": 148,
+          "endcolumn": 57,
+          "description": "Please use StandardCharsets constants",
+          "rule": "UseStandardCharsets",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#usestandardcharsets"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/it/java/org/owasp/webgoat/DeserializationIntegrationTest.java",
+      "violations": [
+        {
+          "beginline": 12,
+          "begincolumn": 30,
+          "endline": 12,
+          "endcolumn": 72,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/it/java/org/owasp/webgoat/IntegrationTest.java",
+      "violations": [
+        {
+          "beginline": 30,
+          "begincolumn": 32,
+          "endline": 30,
+          "endcolumn": 35,
+          "description": "This final field could be made static",
+          "rule": "FinalFieldCouldBeStatic",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#finalfieldcouldbestatic"
+        },
+        {
+          "beginline": 62,
+          "begincolumn": 11,
+          "endline": 62,
+          "endcolumn": 27,
+          "description": "Unnecessary use of fully qualified name \u0027RestAssured.given\u0027 due to existing static import \u0027io.restassured.RestAssured.given\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        },
+        {
+          "beginline": 91,
+          "begincolumn": 9,
+          "endline": 91,
+          "endcolumn": 25,
+          "description": "Unnecessary use of fully qualified name \u0027RestAssured.given\u0027 due to existing static import \u0027io.restassured.RestAssured.given\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        },
+        {
+          "beginline": 106,
+          "begincolumn": 5,
+          "endline": 106,
+          "endcolumn": 21,
+          "description": "Unnecessary use of fully qualified name \u0027RestAssured.given\u0027 due to existing static import \u0027io.restassured.RestAssured.given\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        },
+        {
+          "beginline": 114,
+          "begincolumn": 5,
+          "endline": 114,
+          "endcolumn": 21,
+          "description": "Unnecessary use of fully qualified name \u0027RestAssured.given\u0027 due to existing static import \u0027io.restassured.RestAssured.given\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        },
+        {
+          "beginline": 123,
+          "begincolumn": 7,
+          "endline": 123,
+          "endcolumn": 23,
+          "description": "Unnecessary use of fully qualified name \u0027RestAssured.given\u0027 due to existing static import \u0027io.restassured.RestAssured.given\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        },
+        {
+          "beginline": 135,
+          "begincolumn": 9,
+          "endline": 135,
+          "endcolumn": 25,
+          "description": "Unnecessary use of fully qualified name \u0027RestAssured.given\u0027 due to existing static import \u0027io.restassured.RestAssured.given\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        },
+        {
+          "beginline": 150,
+          "begincolumn": 9,
+          "endline": 150,
+          "endcolumn": 25,
+          "description": "Unnecessary use of fully qualified name \u0027RestAssured.given\u0027 due to existing static import \u0027io.restassured.RestAssured.given\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        },
+        {
+          "beginline": 169,
+          "begincolumn": 9,
+          "endline": 169,
+          "endcolumn": 25,
+          "description": "Unnecessary use of fully qualified name \u0027RestAssured.given\u0027 due to existing static import \u0027io.restassured.RestAssured.given\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        },
+        {
+          "beginline": 184,
+          "begincolumn": 9,
+          "endline": 184,
+          "endcolumn": 25,
+          "description": "Unnecessary use of fully qualified name \u0027RestAssured.given\u0027 due to existing static import \u0027io.restassured.RestAssured.given\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        },
+        {
+          "beginline": 199,
+          "begincolumn": 9,
+          "endline": 199,
+          "endcolumn": 25,
+          "description": "Unnecessary use of fully qualified name \u0027RestAssured.given\u0027 due to existing static import \u0027io.restassured.RestAssured.given\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        },
+        {
+          "beginline": 215,
+          "begincolumn": 9,
+          "endline": 215,
+          "endcolumn": 25,
+          "description": "Unnecessary use of fully qualified name \u0027RestAssured.given\u0027 due to existing static import \u0027io.restassured.RestAssured.given\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        },
+        {
+          "beginline": 230,
+          "begincolumn": 9,
+          "endline": 230,
+          "endcolumn": 25,
+          "description": "Unnecessary use of fully qualified name \u0027RestAssured.given\u0027 due to existing static import \u0027io.restassured.RestAssured.given\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        },
+        {
+          "beginline": 245,
+          "begincolumn": 12,
+          "endline": 245,
+          "endcolumn": 28,
+          "description": "Unnecessary use of fully qualified name \u0027RestAssured.given\u0027 due to existing static import \u0027io.restassured.RestAssured.given\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        },
+        {
+          "beginline": 258,
+          "begincolumn": 5,
+          "endline": 258,
+          "endcolumn": 21,
+          "description": "Unnecessary use of fully qualified name \u0027RestAssured.given\u0027 due to existing static import \u0027io.restassured.RestAssured.given\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/it/java/org/owasp/webgoat/JWTLessonIntegrationTest.java",
+      "violations": [
+        {
+          "beginline": 68,
+          "begincolumn": 13,
+          "endline": 68,
+          "endcolumn": 15,
+          "description": "Avoid unused local variables such as \u0027jwt\u0027.",
+          "rule": "UnusedLocalVariable",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedlocalvariable"
+        },
+        {
+          "beginline": 72,
+          "begincolumn": 7,
+          "endline": 72,
+          "endcolumn": 42,
+          "description": "Avoid using a branching statement as the last in a loop.",
+          "rule": "AvoidBranchingStatementAsLastInLoop",
+          "ruleset": "Error Prone",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidbranchingstatementaslastinloop"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/it/java/org/owasp/webgoat/PasswordResetLessonIntegrationTest.java",
+      "violations": [
+        {
+          "beginline": 135,
+          "begincolumn": 5,
+          "endline": 135,
+          "endcolumn": 16,
+          "description": "Consider simply returning the value vs storing it in local variable \u0027link\u0027",
+          "rule": "UnnecessaryLocalBeforeReturn",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarylocalbeforereturn"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/it/java/org/owasp/webgoat/PathTraversalIntegrationTest.java",
+      "violations": [
+        {
+          "beginline": 26,
+          "begincolumn": 1,
+          "endline": 150,
+          "endcolumn": 1,
+          "description": "The class name \u0027PathTraversalIT\u0027 doesn\u0027t match \u0027^Test.*$|^[A-Z][a-zA-Z0-9]*Test(s|Case)?$\u0027",
+          "rule": "ClassNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#classnamingconventions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/it/java/org/owasp/webgoat/ProgressRaceConditionIntegrationTest.java",
+      "violations": [
+        {
+          "beginline": 20,
+          "begincolumn": 9,
+          "endline": 20,
+          "endcolumn": 23,
+          "description": "The local variable name \u0027NUMBER_OF_CALLS\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "LocalVariableNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablenamingconventions"
+        },
+        {
+          "beginline": 21,
+          "begincolumn": 9,
+          "endline": 21,
+          "endcolumn": 34,
+          "description": "The local variable name \u0027NUMBER_OF_PARALLEL_THREADS\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "LocalVariableNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablenamingconventions"
+        },
+        {
+          "beginline": 55,
+          "begincolumn": 31,
+          "endline": 55,
+          "endcolumn": 94,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/it/java/org/owasp/webgoat/SessionManagementIntegrationTest.java",
+      "violations": [
+        {
+          "beginline": 32,
+          "begincolumn": 1,
+          "endline": 45,
+          "endcolumn": 1,
+          "description": "The class name \u0027SessionManagementIT\u0027 doesn\u0027t match \u0027^Test.*$|^[A-Z][a-zA-Z0-9]*Test(s|Case)?$\u0027",
+          "rule": "ClassNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#classnamingconventions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/it/java/org/owasp/webgoat/SqlInjectionMitigationIntegrationTest.java",
+      "violations": [
+        {
+          "beginline": 80,
+          "begincolumn": 22,
+          "endline": 80,
+          "endcolumn": 38,
+          "description": "Do not hard code the IP address ",
+          "rule": "AvoidUsingHardCodedIP",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#avoidusinghardcodedip"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/dummy/insecure/framework/VulnerableTaskHolder.java",
+      "violations": [
+        {
+          "beginline": 56,
+          "begincolumn": 7,
+          "endline": 56,
+          "endcolumn": 32,
+          "description": "Logger calls should be surrounded by log level guards.",
+          "rule": "GuardLogStatement",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#guardlogstatement"
+        },
+        {
+          "beginline": 66,
+          "begincolumn": 24,
+          "endline": 66,
+          "endcolumn": 25,
+          "description": "Ensure that resources like this InputStreamReader object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/container/AsciiDoctorTemplateResolver.java",
+      "violations": [
+        {
+          "beginline": 48,
+          "begincolumn": 1,
+          "endline": 48,
+          "endcolumn": 46,
+          "description": "Unused import \u0027org.owasp.webgoat.container.asciidoc.*\u0027",
+          "rule": "UnnecessaryImport",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryimport"
+        },
+        {
+          "beginline": 110,
+          "begincolumn": 5,
+          "endline": 110,
+          "endcolumn": 63,
+          "description": "Logger calls should be surrounded by log level guards.",
+          "rule": "GuardLogStatement",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#guardlogstatement"
+        },
+        {
+          "beginline": 126,
+          "begincolumn": 9,
+          "endline": 126,
+          "endcolumn": 29,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 132,
+          "begincolumn": 5,
+          "endline": 134,
+          "endcolumn": 86,
+          "description": "Logger calls should be surrounded by log level guards.",
+          "rule": "GuardLogStatement",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#guardlogstatement"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/container/MvcConfiguration.java",
+      "violations": [
+        {
+          "beginline": 232,
+          "begincolumn": 5,
+          "endline": 232,
+          "endcolumn": 26,
+          "description": "Consider simply returning the value vs storing it in local variable \u0027localeResolver\u0027",
+          "rule": "UnnecessaryLocalBeforeReturn",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarylocalbeforereturn"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/container/asciidoc/WebWolfMacro.java",
+      "violations": [
+        {
+          "beginline": 46,
+          "begincolumn": 55,
+          "endline": 46,
+          "endcolumn": 72,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/container/assignments/AssignmentEndpoint.java",
+      "violations": [
+        {
+          "beginline": 91,
+          "begincolumn": 44,
+          "endline": 91,
+          "endcolumn": 45,
+          "description": "Document empty method body",
+          "rule": "UncommentedEmptyMethodBody",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_documentation.html#uncommentedemptymethodbody"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/container/lessons/Assignment.java",
+      "violations": [
+        {
+          "beginline": 5,
+          "begincolumn": 1,
+          "endline": 5,
+          "endcolumn": 27,
+          "description": "Unused import \u0027javax.persistence.*\u0027",
+          "rule": "UnnecessaryImport",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryimport"
+        },
+        {
+          "beginline": 6,
+          "begincolumn": 1,
+          "endline": 6,
+          "endcolumn": 16,
+          "description": "Unused import \u0027lombok.*\u0027",
+          "rule": "UnnecessaryImport",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryimport"
+        },
+        {
+          "beginline": 61,
+          "begincolumn": 9,
+          "endline": 61,
+          "endcolumn": 23,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 61,
+          "begincolumn": 28,
+          "endline": 61,
+          "endcolumn": 43,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 61,
+          "begincolumn": 48,
+          "endline": 61,
+          "endcolumn": 71,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/container/lessons/CourseConfiguration.java",
+      "violations": [
+        {
+          "beginline": 49,
+          "begincolumn": 17,
+          "endline": 49,
+          "endcolumn": 53,
+          "description": "Perhaps \u0027assignments\u0027 could be replaced by a local variable.",
+          "rule": "SingularField",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#singularfield"
+        },
+        {
+          "beginline": 68,
+          "begincolumn": 7,
+          "endline": 68,
+          "endcolumn": 88,
+          "description": "Logger calls should be surrounded by log level guards.",
+          "rule": "GuardLogStatement",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#guardlogstatement"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/container/lessons/LessonScanner.java",
+      "violations": [
+        {
+          "beginline": 33,
+          "begincolumn": 7,
+          "endline": 33,
+          "endcolumn": 51,
+          "description": "Logger calls should be surrounded by log level guards.",
+          "rule": "GuardLogStatement",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#guardlogstatement"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/container/service/LabelDebugService.java",
+      "violations": [
+        {
+          "beginline": 66,
+          "begincolumn": 5,
+          "endline": 66,
+          "endcolumn": 78,
+          "description": "Logger calls should be surrounded by log level guards.",
+          "rule": "GuardLogStatement",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#guardlogstatement"
+        },
+        {
+          "beginline": 83,
+          "begincolumn": 5,
+          "endline": 83,
+          "endcolumn": 74,
+          "description": "Logger calls should be surrounded by log level guards.",
+          "rule": "GuardLogStatement",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#guardlogstatement"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/container/service/RestartLessonService.java",
+      "violations": [
+        {
+          "beginline": 53,
+          "begincolumn": 3,
+          "endline": 53,
+          "endcolumn": 40,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 56,
+          "begincolumn": 5,
+          "endline": 56,
+          "endcolumn": 41,
+          "description": "Logger calls should be surrounded by log level guards.",
+          "rule": "GuardLogStatement",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#guardlogstatement"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/container/session/UserSessionData.java",
+      "violations": [
+        {
+          "beginline": 8,
+          "begincolumn": 11,
+          "endline": 8,
+          "endcolumn": 33,
+          "description": "Avoid using implementation types like \u0027HashMap\u0027; use the interface instead",
+          "rule": "LooseCoupling",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#loosecoupling"
+        },
+        {
+          "beginline": 10,
+          "begincolumn": 10,
+          "endline": 10,
+          "endcolumn": 29,
+          "description": "Document empty constructor",
+          "rule": "UncommentedEmptyConstructor",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_documentation.html#uncommentedemptyconstructor"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/container/users/LessonTracker.java",
+      "violations": [
+        {
+          "beginline": 5,
+          "begincolumn": 1,
+          "endline": 5,
+          "endcolumn": 27,
+          "description": "Unused import \u0027javax.persistence.*\u0027",
+          "rule": "UnnecessaryImport",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryimport"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/container/users/UserTracker.java",
+      "violations": [
+        {
+          "beginline": 8,
+          "begincolumn": 1,
+          "endline": 8,
+          "endcolumn": 27,
+          "description": "Unused import \u0027javax.persistence.*\u0027",
+          "rule": "UnnecessaryImport",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryimport"
+        },
+        {
+          "beginline": 53,
+          "begincolumn": 11,
+          "endline": 53,
+          "endcolumn": 22,
+          "description": "Perhaps \u0027user\u0027 could be replaced by a local variable.",
+          "rule": "SingularField",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#singularfield"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/container/users/WebGoatUser.java",
+      "violations": [
+        {
+          "beginline": 30,
+          "begincolumn": 13,
+          "endline": 30,
+          "endcolumn": 28,
+          "description": "Document empty constructor",
+          "rule": "UncommentedEmptyConstructor",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_documentation.html#uncommentedemptyconstructor"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/authbypass/AccountVerificationHelper.java",
+      "violations": [
+        {
+          "beginline": 49,
+          "begincolumn": 38,
+          "endline": 49,
+          "endcolumn": 60,
+          "description": "Avoid using implementation types like \u0027HashMap\u0027; use the interface instead",
+          "rule": "LooseCoupling",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#loosecoupling"
+        },
+        {
+          "beginline": 56,
+          "begincolumn": 10,
+          "endline": 59,
+          "endcolumn": 79,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 60,
+          "begincolumn": 13,
+          "endline": 63,
+          "endcolumn": 79,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 73,
+          "begincolumn": 48,
+          "endline": 73,
+          "endcolumn": 70,
+          "description": "Avoid using implementation types like \u0027HashMap\u0027; use the interface instead",
+          "rule": "LooseCoupling",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#loosecoupling"
+        },
+        {
+          "beginline": 86,
+          "begincolumn": 5,
+          "endline": 91,
+          "endcolumn": 5,
+          "description": "Avoid unnecessary if..then..else statements when returning booleans",
+          "rule": "SimplifyBooleanReturns",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#simplifybooleanreturns"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/authbypass/VerifyAccount.java",
+      "violations": [
+        {
+          "beginline": 82,
+          "begincolumn": 11,
+          "endline": 82,
+          "endcolumn": 33,
+          "description": "Avoid using implementation types like \u0027HashMap\u0027; use the interface instead",
+          "rule": "LooseCoupling",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#loosecoupling"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/bypassrestrictions/BypassRestrictionsFieldRestrictions.java",
+      "violations": [
+        {
+          "beginline": 43,
+          "begincolumn": 9,
+          "endline": 43,
+          "endcolumn": 32,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 43,
+          "begincolumn": 37,
+          "endline": 43,
+          "endcolumn": 60,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 46,
+          "begincolumn": 9,
+          "endline": 46,
+          "endcolumn": 31,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 46,
+          "begincolumn": 36,
+          "endline": 46,
+          "endcolumn": 58,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 49,
+          "begincolumn": 9,
+          "endline": 49,
+          "endcolumn": 29,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 49,
+          "begincolumn": 34,
+          "endline": 49,
+          "endcolumn": 55,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/challenges/SolutionConstants.java",
+      "violations": [
+        {
+          "beginline": 34,
+          "begincolumn": 3,
+          "endline": 34,
+          "endcolumn": 45,
+          "description": "Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.",
+          "rule": "ConstantsInInterface",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#constantsininterface"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/challenges/challenge5/Assignment5.java",
+      "violations": [
+        {
+          "beginline": 50,
+          "begincolumn": 65,
+          "endline": 50,
+          "endcolumn": 78,
+          "description": "The method parameter name \u0027password_login\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 50,
+          "begincolumn": 28,
+          "endline": 50,
+          "endcolumn": 41,
+          "description": "The method parameter name \u0027username_login\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 58,
+          "begincolumn": 25,
+          "endline": 58,
+          "endcolumn": 33,
+          "description": "Ensure that resources like this PreparedStatement object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 65,
+          "begincolumn": 17,
+          "endline": 65,
+          "endcolumn": 25,
+          "description": "Ensure that resources like this ResultSet object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/challenges/challenge7/Assignment7.java",
+      "violations": [
+        {
+          "beginline": 59,
+          "begincolumn": 47,
+          "endline": 59,
+          "endcolumn": 75,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 60,
+          "begincolumn": 9,
+          "endline": 60,
+          "endcolumn": 40,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/challenges/challenge7/MD5.java",
+      "violations": [
+        {
+          "beginline": 70,
+          "begincolumn": 21,
+          "endline": 70,
+          "endcolumn": 33,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 70,
+          "begincolumn": 39,
+          "endline": 70,
+          "endcolumn": 51,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 70,
+          "begincolumn": 57,
+          "endline": 70,
+          "endcolumn": 70,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 407,
+          "begincolumn": 11,
+          "endline": 407,
+          "endcolumn": 43,
+          "description": "Perhaps \u0027decodeBuffer\u0027 could be replaced by a local variable.",
+          "rule": "SingularField",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#singularfield"
+        },
+        {
+          "beginline": 569,
+          "begincolumn": 18,
+          "endline": 576,
+          "endcolumn": 3,
+          "description": "The static method name \u0027FF\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "MethodNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodnamingconventions"
+        },
+        {
+          "beginline": 570,
+          "begincolumn": 11,
+          "endline": 570,
+          "endcolumn": 28,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 578,
+          "begincolumn": 18,
+          "endline": 585,
+          "endcolumn": 3,
+          "description": "The static method name \u0027GG\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "MethodNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodnamingconventions"
+        },
+        {
+          "beginline": 579,
+          "begincolumn": 11,
+          "endline": 579,
+          "endcolumn": 28,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 587,
+          "begincolumn": 18,
+          "endline": 594,
+          "endcolumn": 3,
+          "description": "The static method name \u0027HH\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "MethodNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodnamingconventions"
+        },
+        {
+          "beginline": 588,
+          "begincolumn": 11,
+          "endline": 588,
+          "endcolumn": 19,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 596,
+          "begincolumn": 18,
+          "endline": 603,
+          "endcolumn": 3,
+          "description": "The static method name \u0027II\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "MethodNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodnamingconventions"
+        },
+        {
+          "beginline": 597,
+          "begincolumn": 11,
+          "endline": 597,
+          "endcolumn": 22,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 620,
+          "begincolumn": 5,
+          "endline": 620,
+          "endcolumn": 12,
+          "description": "Use one line for each declaration, it enhances code readability.",
+          "rule": "OneDeclarationPerLine",
+          "ruleset": "Best Practices",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#onedeclarationperline"
+        },
+        {
+          "beginline": 631,
+          "begincolumn": 5,
+          "endline": 631,
+          "endcolumn": 12,
+          "description": "Use one line for each declaration, it enhances code readability.",
+          "rule": "OneDeclarationPerLine",
+          "ruleset": "Best Practices",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#onedeclarationperline"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/challenges/challenge7/PasswordResetLink.java",
+      "violations": [
+        {
+          "beginline": 15,
+          "begincolumn": 9,
+          "endline": 15,
+          "endcolumn": 42,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/challenges/challenge8/Assignment8.java",
+      "violations": [
+        {
+          "beginline": 39,
+          "begincolumn": 7,
+          "endline": 39,
+          "endcolumn": 36,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 41,
+          "begincolumn": 12,
+          "endline": 41,
+          "endcolumn": 14,
+          "description": "Avoid unused local variables such as \u0027msg\u0027.",
+          "rule": "UnusedLocalVariable",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedlocalvariable"
+        },
+        {
+          "beginline": 42,
+          "begincolumn": 9,
+          "endline": 42,
+          "endcolumn": 41,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/chromedevtools/NetworkLesson.java",
+      "violations": [
+        {
+          "beginline": 49,
+          "begincolumn": 54,
+          "endline": 49,
+          "endcolumn": 64,
+          "description": "The method parameter name \u0027network_num\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/cia/CIAQuiz.java",
+      "violations": [
+        {
+          "beginline": 20,
+          "begincolumn": 30,
+          "endline": 20,
+          "endcolumn": 48,
+          "description": "The method parameter name \u0027question_0_solution\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 21,
+          "begincolumn": 30,
+          "endline": 21,
+          "endcolumn": 48,
+          "description": "The method parameter name \u0027question_1_solution\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 22,
+          "begincolumn": 30,
+          "endline": 22,
+          "endcolumn": 48,
+          "description": "The method parameter name \u0027question_2_solution\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 23,
+          "begincolumn": 30,
+          "endline": 23,
+          "endcolumn": 48,
+          "description": "The method parameter name \u0027question_3_solution\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/clientsidefiltering/Salaries.java",
+      "violations": [
+        {
+          "beginline": 82,
+          "begincolumn": 5,
+          "endline": 82,
+          "endcolumn": 33,
+          "description": "Unnecessary use of fully qualified name \u0027java.util.Map\u0027 due to existing import \u0027java.util.Map\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/cryptography/CryptoUtil.java",
+      "violations": [
+        {
+          "beginline": 23,
+          "begincolumn": 25,
+          "endline": 143,
+          "endcolumn": 1,
+          "description": "All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.",
+          "rule": "UseUtilityClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#useutilityclass"
+        },
+        {
+          "beginline": 50,
+          "begincolumn": 33,
+          "endline": 50,
+          "endcolumn": 39,
+          "description": "Please use StandardCharsets constants",
+          "rule": "UseStandardCharsets",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#usestandardcharsets"
+        },
+        {
+          "beginline": 68,
+          "begincolumn": 91,
+          "endline": 68,
+          "endcolumn": 97,
+          "description": "Please use StandardCharsets constants",
+          "rule": "UseStandardCharsets",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#usestandardcharsets"
+        },
+        {
+          "beginline": 125,
+          "begincolumn": 19,
+          "endline": 126,
+          "endcolumn": 48,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 126,
+          "begincolumn": 27,
+          "endline": 126,
+          "endcolumn": 47,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/cryptography/EncodingAssignment.java",
+      "violations": [
+        {
+          "beginline": 63,
+          "begincolumn": 28,
+          "endline": 63,
+          "endcolumn": 38,
+          "description": "The method parameter name \u0027answer_user\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 64,
+          "begincolumn": 28,
+          "endline": 64,
+          "endcolumn": 37,
+          "description": "The method parameter name \u0027answer_pwd\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/cryptography/HashingAssignment.java",
+      "violations": [
+        {
+          "beginline": 58,
+          "begincolumn": 17,
+          "endline": 58,
+          "endcolumn": 70,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        },
+        {
+          "beginline": 83,
+          "begincolumn": 28,
+          "endline": 83,
+          "endcolumn": 38,
+          "description": "The method parameter name \u0027answer_pwd1\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 84,
+          "begincolumn": 28,
+          "endline": 84,
+          "endcolumn": 38,
+          "description": "The method parameter name \u0027answer_pwd2\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 103,
+          "begincolumn": 12,
+          "endline": 103,
+          "endcolumn": 65,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/cryptography/SigningAssignment.java",
+      "violations": [
+        {
+          "beginline": 80,
+          "begincolumn": 17,
+          "endline": 80,
+          "endcolumn": 41,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/cryptography/XOREncodingAssignment.java",
+      "violations": [
+        {
+          "beginline": 39,
+          "begincolumn": 54,
+          "endline": 39,
+          "endcolumn": 64,
+          "description": "The method parameter name \u0027answer_pwd1\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/csrf/CSRFFeedback.java",
+      "violations": [
+        {
+          "beginline": 107,
+          "begincolumn": 13,
+          "endline": 107,
+          "endcolumn": 44,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/csrf/CSRFGetFlag.java",
+      "violations": [
+        {
+          "beginline": 57,
+          "begincolumn": 9,
+          "endline": 57,
+          "endcolumn": 30,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/csrf/ForgedReviews.java",
+      "violations": [
+        {
+          "beginline": 110,
+          "begincolumn": 9,
+          "endline": 110,
+          "endcolumn": 25,
+          "description": "Use equals() to compare object references.",
+          "rule": "CompareObjectsWithEquals",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#compareobjectswithequals"
+        },
+        {
+          "beginline": 110,
+          "begincolumn": 9,
+          "endline": 110,
+          "endcolumn": 25,
+          "description": "Use equals() to compare strings instead of \u0027\u003d\u003d\u0027 or \u0027!\u003d\u0027",
+          "rule": "UseEqualsToCompareStrings",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#useequalstocomparestrings"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/deserialization/InsecureDeserializationTask.java",
+      "violations": [
+        {
+          "beginline": 72,
+          "begincolumn": 7,
+          "endline": 74,
+          "endcolumn": 5,
+          "description": "\u0027catch\u0027 branch identical to \u0027InvalidClassException\u0027 branch",
+          "rule": "IdenticalCatchBranches",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#identicalcatchbranches"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/deserialization/SerializationHelper.java",
+      "violations": [
+        {
+          "beginline": 12,
+          "begincolumn": 34,
+          "endline": 51,
+          "endcolumn": 1,
+          "description": "All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.",
+          "rule": "UseUtilityClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#useutilityclass"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/htmltampering/HtmlTamperingTask.java",
+      "violations": [
+        {
+          "beginline": 39,
+          "begincolumn": 54,
+          "endline": 39,
+          "endcolumn": 56,
+          "description": "The method parameter name \u0027QTY\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 39,
+          "begincolumn": 80,
+          "endline": 39,
+          "endcolumn": 84,
+          "description": "The method parameter name \u0027Total\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/httpbasics/HttpBasicsQuiz.java",
+      "violations": [
+        {
+          "beginline": 43,
+          "begincolumn": 28,
+          "endline": 43,
+          "endcolumn": 39,
+          "description": "The method parameter name \u0027magic_answer\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 44,
+          "begincolumn": 28,
+          "endline": 44,
+          "endcolumn": 36,
+          "description": "The method parameter name \u0027magic_num\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/idor/IDORDiffAttributes.java",
+      "violations": [
+        {
+          "beginline": 49,
+          "begincolumn": 9,
+          "endline": 49,
+          "endcolumn": 60,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 49,
+          "begincolumn": 9,
+          "endline": 49,
+          "endcolumn": 60,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        },
+        {
+          "beginline": 50,
+          "begincolumn": 16,
+          "endline": 50,
+          "endcolumn": 65,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 50,
+          "begincolumn": 16,
+          "endline": 50,
+          "endcolumn": 65,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        },
+        {
+          "beginline": 51,
+          "begincolumn": 12,
+          "endline": 51,
+          "endcolumn": 63,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 51,
+          "begincolumn": 12,
+          "endline": 51,
+          "endcolumn": 63,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        },
+        {
+          "beginline": 52,
+          "begincolumn": 16,
+          "endline": 52,
+          "endcolumn": 65,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 52,
+          "begincolumn": 16,
+          "endline": 52,
+          "endcolumn": 65,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/idor/IDOREditOtherProfiile.java",
+      "violations": [
+        {
+          "beginline": 72,
+          "begincolumn": 14,
+          "endline": 72,
+          "endcolumn": 70,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 72,
+          "begincolumn": 14,
+          "endline": 72,
+          "endcolumn": 70,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        },
+        {
+          "beginline": 80,
+          "begincolumn": 14,
+          "endline": 80,
+          "endcolumn": 70,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 80,
+          "begincolumn": 14,
+          "endline": 80,
+          "endcolumn": 70,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        },
+        {
+          "beginline": 88,
+          "begincolumn": 15,
+          "endline": 88,
+          "endcolumn": 71,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 88,
+          "begincolumn": 15,
+          "endline": 88,
+          "endcolumn": 71,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        },
+        {
+          "beginline": 104,
+          "begincolumn": 9,
+          "endline": 104,
+          "endcolumn": 53,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/idor/IDORViewOtherProfile.java",
+      "violations": [
+        {
+          "beginline": 59,
+          "begincolumn": 25,
+          "endline": 59,
+          "endcolumn": 31,
+          "description": "Avoid unused local variables such as \u0027details\u0027.",
+          "rule": "UnusedLocalVariable",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedlocalvariable"
+        },
+        {
+          "beginline": 61,
+          "begincolumn": 9,
+          "endline": 61,
+          "endcolumn": 71,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 69,
+          "begincolumn": 13,
+          "endline": 69,
+          "endcolumn": 58,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/idor/IDORViewOwnProfile.java",
+      "violations": [
+        {
+          "beginline": 47,
+          "begincolumn": 11,
+          "endline": 47,
+          "endcolumn": 73,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 62,
+          "begincolumn": 7,
+          "endline": 62,
+          "endcolumn": 56,
+          "description": "Logger calls should be surrounded by log level guards.",
+          "rule": "GuardLogStatement",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#guardlogstatement"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/idor/IDORViewOwnProfileAltUrl.java",
+      "violations": [
+        {
+          "beginline": 49,
+          "begincolumn": 11,
+          "endline": 49,
+          "endcolumn": 73,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 54,
+          "begincolumn": 13,
+          "endline": 54,
+          "endcolumn": 41,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 55,
+          "begincolumn": 16,
+          "endline": 55,
+          "endcolumn": 41,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 56,
+          "begincolumn": 16,
+          "endline": 56,
+          "endcolumn": 44,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/idor/UserProfile.java",
+      "violations": [
+        {
+          "beginline": 37,
+          "begincolumn": 10,
+          "endline": 37,
+          "endcolumn": 25,
+          "description": "Document empty constructor",
+          "rule": "UncommentedEmptyConstructor",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_documentation.html#uncommentedemptyconstructor"
+        },
+        {
+          "beginline": 46,
+          "begincolumn": 9,
+          "endline": 46,
+          "endcolumn": 28,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 53,
+          "begincolumn": 16,
+          "endline": 53,
+          "endcolumn": 35,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 60,
+          "begincolumn": 12,
+          "endline": 62,
+          "endcolumn": 5,
+          "description": "Empty else statement",
+          "rule": "EmptyControlStatement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#emptycontrolstatement"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/insecurelogin/InsecureLoginTask.java",
+      "violations": [
+        {
+          "beginline": 28,
+          "begincolumn": 1,
+          "endline": 28,
+          "endcolumn": 49,
+          "description": "Unused import \u0027org.springframework.web.bind.annotation.*\u0027",
+          "rule": "UnnecessaryImport",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryimport"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/jwt/JWTFinalEndpoint.java",
+      "violations": [
+        {
+          "beginline": 54,
+          "begincolumn": 8,
+          "endline": 119,
+          "endcolumn": 1,
+          "description": "A class which only has private constructors should be final",
+          "rule": "ClassWithOnlyPrivateConstructorsShouldBeFinal",
+          "ruleset": "Design",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal"
+        },
+        {
+          "beginline": 54,
+          "begincolumn": 8,
+          "endline": 119,
+          "endcolumn": 1,
+          "description": "Class cannot be instantiated and does not provide any static methods or fields",
+          "rule": "MissingStaticMethodInNonInstantiatableClass",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#missingstaticmethodinnoninstantiatableclass"
+        },
+        {
+          "beginline": 86,
+          "begincolumn": 37,
+          "endline": 86,
+          "endcolumn": 38,
+          "description": "Ensure that resources like this ResultSet object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 92,
+          "begincolumn": 29,
+          "endline": 92,
+          "endcolumn": 76,
+          "description": "Avoid using a branching statement as the last in a loop.",
+          "rule": "AvoidBranchingStatementAsLastInLoop",
+          "ruleset": "Error Prone",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidbranchingstatementaslastinloop"
+        },
+        {
+          "beginline": 97,
+          "begincolumn": 32,
+          "endline": 97,
+          "endcolumn": 35,
+          "description": "Return an empty collection rather than null.",
+          "rule": "ReturnEmptyCollectionRatherThanNull",
+          "ruleset": "Error Prone",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#returnemptycollectionratherthannull"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/jwt/JWTQuiz.java",
+      "violations": [
+        {
+          "beginline": 20,
+          "begincolumn": 30,
+          "endline": 20,
+          "endcolumn": 48,
+          "description": "The method parameter name \u0027question_0_solution\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 20,
+          "begincolumn": 74,
+          "endline": 20,
+          "endcolumn": 92,
+          "description": "The method parameter name \u0027question_1_solution\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/jwt/JWTVotesEndpoint.java",
+      "violations": [
+        {
+          "beginline": 170,
+          "begincolumn": 3,
+          "endline": 170,
+          "endcolumn": 46,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/lessontemplate/SampleAttack.java",
+      "violations": [
+        {
+          "beginline": 53,
+          "begincolumn": 5,
+          "endline": 56,
+          "endcolumn": 5,
+          "description": "Empty if statement",
+          "rule": "EmptyControlStatement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#emptycontrolstatement"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/logging/LogBleedingTask.java",
+      "violations": [
+        {
+          "beginline": 48,
+          "begincolumn": 5,
+          "endline": 50,
+          "endcolumn": 86,
+          "description": "Logger calls should be surrounded by log level guards.",
+          "rule": "GuardLogStatement",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#guardlogstatement"
+        },
+        {
+          "beginline": 60,
+          "begincolumn": 9,
+          "endline": 60,
+          "endcolumn": 32,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/missingac/MissingFunctionACHiddenMenus.java",
+      "violations": [
+        {
+          "beginline": 46,
+          "begincolumn": 9,
+          "endline": 46,
+          "endcolumn": 35,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 46,
+          "begincolumn": 40,
+          "endline": 46,
+          "endcolumn": 67,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 50,
+          "begincolumn": 9,
+          "endline": 50,
+          "endcolumn": 36,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 50,
+          "begincolumn": 41,
+          "endline": 50,
+          "endcolumn": 67,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/passwordreset/QuestionsAssignment.java",
+      "violations": [
+        {
+          "beginline": 60,
+          "begincolumn": 36,
+          "endline": 60,
+          "endcolumn": 57,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        },
+        {
+          "beginline": 64,
+          "begincolumn": 37,
+          "endline": 64,
+          "endcolumn": 58,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/passwordreset/ResetLinkAssignment.java",
+      "violations": [
+        {
+          "beginline": 88,
+          "begincolumn": 11,
+          "endline": 88,
+          "endcolumn": 44,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 98,
+          "begincolumn": 37,
+          "endline": 98,
+          "endcolumn": 65,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/passwordreset/ResetLinkAssignmentForgotPassword.java",
+      "violations": [
+        {
+          "beginline": 110,
+          "begincolumn": 7,
+          "endline": 112,
+          "endcolumn": 5,
+          "description": "Avoid empty catch blocks",
+          "rule": "EmptyCatchBlock",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#emptycatchblock"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileUploadRetrieval.java",
+      "violations": [
+        {
+          "beginline": 59,
+          "begincolumn": 9,
+          "endline": 59,
+          "endcolumn": 61,
+          "description": "Logger calls should be surrounded by log level guards.",
+          "rule": "GuardLogStatement",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#guardlogstatement"
+        },
+        {
+          "beginline": 94,
+          "begincolumn": 11,
+          "endline": 94,
+          "endcolumn": 82,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/pathtraversal/ProfileZipSlip.java",
+      "violations": [
+        {
+          "beginline": 52,
+          "begincolumn": 10,
+          "endline": 52,
+          "endcolumn": 66,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        },
+        {
+          "beginline": 69,
+          "begincolumn": 15,
+          "endline": 69,
+          "endcolumn": 17,
+          "description": "Ensure that resources like this ZipFile object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 74,
+          "begincolumn": 21,
+          "endline": 74,
+          "endcolumn": 22,
+          "description": "Ensure that resources like this InputStream object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/securepasswords/SecurePasswordsAssignment.java",
+      "violations": [
+        {
+          "beginline": 78,
+          "begincolumn": 7,
+          "endline": 78,
+          "endcolumn": 88,
+          "description": "This statement should have braces",
+          "rule": "ControlStatementBraces",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#controlstatementbraces"
+        },
+        {
+          "beginline": 83,
+          "begincolumn": 7,
+          "endline": 84,
+          "endcolumn": 46,
+          "description": "This statement should have braces",
+          "rule": "ControlStatementBraces",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#controlstatementbraces"
+        },
+        {
+          "beginline": 90,
+          "begincolumn": 7,
+          "endline": 90,
+          "endcolumn": 96,
+          "description": "This statement should have braces",
+          "rule": "ControlStatementBraces",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#controlstatementbraces"
+        },
+        {
+          "beginline": 91,
+          "begincolumn": 10,
+          "endline": 91,
+          "endcolumn": 97,
+          "description": "This statement should have braces",
+          "rule": "ControlStatementBraces",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#controlstatementbraces"
+        },
+        {
+          "beginline": 96,
+          "begincolumn": 16,
+          "endline": 96,
+          "endcolumn": 21,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 97,
+          "begincolumn": 15,
+          "endline": 97,
+          "endcolumn": 22,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 98,
+          "begincolumn": 14,
+          "endline": 98,
+          "endcolumn": 20,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 99,
+          "begincolumn": 15,
+          "endline": 99,
+          "endcolumn": 21,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 105,
+          "begincolumn": 17,
+          "endline": 105,
+          "endcolumn": 33,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 107,
+          "begincolumn": 13,
+          "endline": 116,
+          "endcolumn": 20,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/spoofcookie/SpoofCookieAssignment.java",
+      "violations": [
+        {
+          "beginline": 83,
+          "begincolumn": 33,
+          "endline": 83,
+          "endcolumn": 54,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        },
+        {
+          "beginline": 108,
+          "begincolumn": 24,
+          "endline": 108,
+          "endcolumn": 63,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        },
+        {
+          "beginline": 114,
+          "begincolumn": 11,
+          "endline": 114,
+          "endcolumn": 48,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/spoofcookie/encoders/EncDec.java",
+      "violations": [
+        {
+          "beginline": 36,
+          "begincolumn": 8,
+          "endline": 88,
+          "endcolumn": 1,
+          "description": "A class which only has private constructors should be final",
+          "rule": "ClassWithOnlyPrivateConstructorsShouldBeFinal",
+          "ruleset": "Design",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal"
+        },
+        {
+          "beginline": 49,
+          "begincolumn": 22,
+          "endline": 49,
+          "endcolumn": 40,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionChallenge.java",
+      "violations": [
+        {
+          "beginline": 42,
+          "begincolumn": 1,
+          "endline": 43,
+          "endcolumn": 91,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 57,
+          "begincolumn": 28,
+          "endline": 57,
+          "endcolumn": 39,
+          "description": "The method parameter name \u0027username_reg\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 58,
+          "begincolumn": 28,
+          "endline": 58,
+          "endcolumn": 36,
+          "description": "The method parameter name \u0027email_reg\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 59,
+          "begincolumn": 28,
+          "endline": 59,
+          "endcolumn": 39,
+          "description": "The method parameter name \u0027password_reg\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 68,
+          "begincolumn": 19,
+          "endline": 68,
+          "endcolumn": 27,
+          "description": "Ensure that resources like this Statement object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 69,
+          "begincolumn": 19,
+          "endline": 69,
+          "endcolumn": 27,
+          "description": "Ensure that resources like this ResultSet object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 78,
+          "begincolumn": 29,
+          "endline": 78,
+          "endcolumn": 45,
+          "description": "Ensure that resources like this PreparedStatement object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 93,
+          "begincolumn": 67,
+          "endline": 93,
+          "endcolumn": 75,
+          "description": "The method parameter name \u0027email_reg\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 93,
+          "begincolumn": 85,
+          "endline": 93,
+          "endcolumn": 96,
+          "description": "The method parameter name \u0027password_reg\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 93,
+          "begincolumn": 46,
+          "endline": 93,
+          "endcolumn": 57,
+          "description": "The method parameter name \u0027username_reg\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionChallengeLogin.java",
+      "violations": [
+        {
+          "beginline": 35,
+          "begincolumn": 1,
+          "endline": 41,
+          "endcolumn": 6,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 53,
+          "begincolumn": 65,
+          "endline": 53,
+          "endcolumn": 78,
+          "description": "The method parameter name \u0027password_login\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 53,
+          "begincolumn": 28,
+          "endline": 53,
+          "endcolumn": 41,
+          "description": "The method parameter name \u0027username_login\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 63,
+          "begincolumn": 17,
+          "endline": 63,
+          "endcolumn": 44,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionLesson6a.java",
+      "violations": [
+        {
+          "beginline": 37,
+          "begincolumn": 1,
+          "endline": 44,
+          "endcolumn": 6,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 56,
+          "begincolumn": 33,
+          "endline": 56,
+          "endcolumn": 66,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 74,
+          "begincolumn": 19,
+          "endline": 74,
+          "endcolumn": 25,
+          "description": "Ensure that resources like this ResultSet object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 76,
+          "begincolumn": 14,
+          "endline": 76,
+          "endcolumn": 28,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 84,
+          "begincolumn": 13,
+          "endline": 85,
+          "endcolumn": 99,
+          "description": "This statement should have braces",
+          "rule": "ControlStatementBraces",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#controlstatementbraces"
+        },
+        {
+          "beginline": 87,
+          "begincolumn": 13,
+          "endline": 88,
+          "endcolumn": 83,
+          "description": "This statement should have braces",
+          "rule": "ControlStatementBraces",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#controlstatementbraces"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionLesson6b.java",
+      "violations": [
+        {
+          "beginline": 49,
+          "begincolumn": 54,
+          "endline": 49,
+          "endcolumn": 62,
+          "description": "The method parameter name \u0027userid_6b\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 62,
+          "begincolumn": 19,
+          "endline": 62,
+          "endcolumn": 27,
+          "description": "Ensure that resources like this Statement object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 65,
+          "begincolumn": 19,
+          "endline": 65,
+          "endcolumn": 25,
+          "description": "Ensure that resources like this ResultSet object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 78,
+          "begincolumn": 13,
+          "endline": 78,
+          "endcolumn": 20,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/sqlinjection/advanced/SqlInjectionQuiz.java",
+      "violations": [
+        {
+          "beginline": 48,
+          "begincolumn": 30,
+          "endline": 48,
+          "endcolumn": 48,
+          "description": "The method parameter name \u0027question_0_solution\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 49,
+          "begincolumn": 30,
+          "endline": 49,
+          "endcolumn": 48,
+          "description": "The method parameter name \u0027question_1_solution\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 50,
+          "begincolumn": 30,
+          "endline": 50,
+          "endcolumn": 48,
+          "description": "The method parameter name \u0027question_2_solution\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 51,
+          "begincolumn": 30,
+          "endline": 51,
+          "endcolumn": 48,
+          "description": "The method parameter name \u0027question_3_solution\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 52,
+          "begincolumn": 30,
+          "endline": 52,
+          "endcolumn": 48,
+          "description": "The method parameter name \u0027question_4_solution\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson10.java",
+      "violations": [
+        {
+          "beginline": 39,
+          "begincolumn": 1,
+          "endline": 47,
+          "endcolumn": 6,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 58,
+          "begincolumn": 54,
+          "endline": 58,
+          "endcolumn": 66,
+          "description": "The method parameter name \u0027action_string\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 68,
+          "begincolumn": 19,
+          "endline": 68,
+          "endcolumn": 27,
+          "description": "Ensure that resources like this Statement object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 71,
+          "begincolumn": 19,
+          "endline": 71,
+          "endcolumn": 25,
+          "description": "Ensure that resources like this ResultSet object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 113,
+          "begincolumn": 17,
+          "endline": 113,
+          "endcolumn": 20,
+          "description": "Ensure that resources like this Statement object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 115,
+          "begincolumn": 17,
+          "endline": 115,
+          "endcolumn": 23,
+          "description": "Ensure that resources like this ResultSet object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 117,
+          "begincolumn": 15,
+          "endline": 117,
+          "endcolumn": 22,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson2.java",
+      "violations": [
+        {
+          "beginline": 41,
+          "begincolumn": 1,
+          "endline": 47,
+          "endcolumn": 6,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 64,
+          "begincolumn": 17,
+          "endline": 64,
+          "endcolumn": 25,
+          "description": "Ensure that resources like this Statement object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 65,
+          "begincolumn": 7,
+          "endline": 65,
+          "endcolumn": 55,
+          "description": "Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.",
+          "rule": "CheckResultSet",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#checkresultset"
+        },
+        {
+          "beginline": 65,
+          "begincolumn": 17,
+          "endline": 65,
+          "endcolumn": 23,
+          "description": "Ensure that resources like this ResultSet object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 70,
+          "begincolumn": 11,
+          "endline": 70,
+          "endcolumn": 61,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson3.java",
+      "violations": [
+        {
+          "beginline": 42,
+          "begincolumn": 1,
+          "endline": 42,
+          "endcolumn": 84,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 61,
+          "begincolumn": 19,
+          "endline": 62,
+          "endcolumn": 81,
+          "description": "it is recommended to wrap resource in try-with-resource declaration directly",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 64,
+          "begincolumn": 9,
+          "endline": 65,
+          "endcolumn": 93,
+          "description": "Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.",
+          "rule": "CheckResultSet",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#checkresultset"
+        },
+        {
+          "beginline": 64,
+          "begincolumn": 19,
+          "endline": 64,
+          "endcolumn": 25,
+          "description": "Ensure that resources like this ResultSet object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 69,
+          "begincolumn": 13,
+          "endline": 69,
+          "endcolumn": 59,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson4.java",
+      "violations": [
+        {
+          "beginline": 42,
+          "begincolumn": 1,
+          "endline": 43,
+          "endcolumn": 100,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 64,
+          "begincolumn": 19,
+          "endline": 64,
+          "endcolumn": 25,
+          "description": "Ensure that resources like this ResultSet object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5.java",
+      "violations": [
+        {
+          "beginline": 39,
+          "begincolumn": 1,
+          "endline": 45,
+          "endcolumn": 6,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 63,
+          "begincolumn": 7,
+          "endline": 65,
+          "endcolumn": 5,
+          "description": "Avoid empty catch blocks",
+          "rule": "EmptyCatchBlock",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#emptycatchblock"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5a.java",
+      "violations": [
+        {
+          "beginline": 36,
+          "begincolumn": 1,
+          "endline": 36,
+          "endcolumn": 55,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 67,
+          "begincolumn": 19,
+          "endline": 67,
+          "endcolumn": 25,
+          "description": "Ensure that resources like this ResultSet object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 69,
+          "begincolumn": 14,
+          "endline": 69,
+          "endcolumn": 28,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 69,
+          "begincolumn": 35,
+          "endline": 69,
+          "endcolumn": 49,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 134,
+          "begincolumn": 13,
+          "endline": 134,
+          "endcolumn": 24,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson5b.java",
+      "violations": [
+        {
+          "beginline": 38,
+          "begincolumn": 1,
+          "endline": 44,
+          "endcolumn": 6,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 56,
+          "begincolumn": 57,
+          "endline": 56,
+          "endcolumn": 67,
+          "description": "The method parameter name \u0027login_count\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 61,
+          "begincolumn": 49,
+          "endline": 61,
+          "endcolumn": 59,
+          "description": "The method parameter name \u0027login_count\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 64,
+          "begincolumn": 25,
+          "endline": 64,
+          "endcolumn": 29,
+          "description": "Ensure that resources like this PreparedStatement object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 86,
+          "begincolumn": 19,
+          "endline": 86,
+          "endcolumn": 25,
+          "description": "Ensure that resources like this ResultSet object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 88,
+          "begincolumn": 14,
+          "endline": 88,
+          "endcolumn": 28,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 88,
+          "begincolumn": 35,
+          "endline": 88,
+          "endcolumn": 57,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson8.java",
+      "violations": [
+        {
+          "beginline": 41,
+          "begincolumn": 1,
+          "endline": 48,
+          "endcolumn": 6,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 59,
+          "begincolumn": 81,
+          "endline": 59,
+          "endcolumn": 88,
+          "description": "The method parameter name \u0027auth_tan\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 63,
+          "begincolumn": 77,
+          "endline": 63,
+          "endcolumn": 84,
+          "description": "The method parameter name \u0027auth_tan\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 74,
+          "begincolumn": 19,
+          "endline": 74,
+          "endcolumn": 27,
+          "description": "Ensure that resources like this Statement object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 76,
+          "begincolumn": 52,
+          "endline": 76,
+          "endcolumn": 77,
+          "description": "Unnecessary use of fully qualified name \u0027ResultSet.CONCUR_UPDATABLE\u0027 due to existing static import \u0027java.sql.ResultSet.CONCUR_UPDATABLE\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        },
+        {
+          "beginline": 78,
+          "begincolumn": 19,
+          "endline": 78,
+          "endcolumn": 25,
+          "description": "Ensure that resources like this ResultSet object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 144,
+          "begincolumn": 13,
+          "endline": 144,
+          "endcolumn": 28,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 157,
+          "begincolumn": 17,
+          "endline": 157,
+          "endcolumn": 25,
+          "description": "Ensure that resources like this Statement object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson9.java",
+      "violations": [
+        {
+          "beginline": 42,
+          "begincolumn": 1,
+          "endline": 49,
+          "endcolumn": 6,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 60,
+          "begincolumn": 81,
+          "endline": 60,
+          "endcolumn": 88,
+          "description": "The method parameter name \u0027auth_tan\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 64,
+          "begincolumn": 71,
+          "endline": 64,
+          "endcolumn": 78,
+          "description": "The method parameter name \u0027auth_tan\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 74,
+          "begincolumn": 19,
+          "endline": 74,
+          "endcolumn": 27,
+          "description": "Ensure that resources like this Statement object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 76,
+          "begincolumn": 19,
+          "endline": 76,
+          "endcolumn": 25,
+          "description": "Ensure that resources like this ResultSet object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 77,
+          "begincolumn": 13,
+          "endline": 77,
+          "endcolumn": 16,
+          "description": "Avoid unused local variables such as \u0027test\u0027.",
+          "rule": "UnusedLocalVariable",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedlocalvariable"
+        },
+        {
+          "beginline": 108,
+          "begincolumn": 9,
+          "endline": 108,
+          "endcolumn": 57,
+          "description": "Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.",
+          "rule": "CheckResultSet",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#checkresultset"
+        },
+        {
+          "beginline": 108,
+          "begincolumn": 19,
+          "endline": 108,
+          "endcolumn": 25,
+          "description": "Ensure that resources like this ResultSet object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 112,
+          "begincolumn": 14,
+          "endline": 112,
+          "endcolumn": 48,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 112,
+          "begincolumn": 55,
+          "endline": 112,
+          "endcolumn": 90,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 112,
+          "begincolumn": 14,
+          "endline": 112,
+          "endcolumn": 48,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 112,
+          "begincolumn": 55,
+          "endline": 112,
+          "endcolumn": 90,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/sqlinjection/mitigation/SqlInjectionLesson10a.java",
+      "violations": [
+        {
+          "beginline": 36,
+          "begincolumn": 1,
+          "endline": 37,
+          "endcolumn": 99,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 58,
+          "begincolumn": 11,
+          "endline": 58,
+          "endcolumn": 76,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        },
+        {
+          "beginline": 58,
+          "begincolumn": 40,
+          "endline": 58,
+          "endcolumn": 75,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/sqlinjection/mitigation/SqlInjectionLesson10b.java",
+      "violations": [
+        {
+          "beginline": 47,
+          "begincolumn": 1,
+          "endline": 54,
+          "endcolumn": 6,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 61,
+          "begincolumn": 29,
+          "endline": 61,
+          "endcolumn": 94,
+          "description": "This statement should have braces",
+          "rule": "ControlStatementBraces",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#controlstatementbraces"
+        },
+        {
+          "beginline": 82,
+          "begincolumn": 12,
+          "endline": 86,
+          "endcolumn": 51,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 89,
+          "begincolumn": 27,
+          "endline": 89,
+          "endcolumn": 42,
+          "description": "Substitute calls to size() \u003d\u003d 0 (or size() !\u003d 0, size() \u003e 0, size() \u003c 1) with calls to isEmpty()",
+          "rule": "UseCollectionIsEmpty",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#usecollectionisempty"
+        },
+        {
+          "beginline": 91,
+          "begincolumn": 18,
+          "endline": 91,
+          "endcolumn": 33,
+          "description": "Substitute calls to size() \u003d\u003d 0 (or size() !\u003d 0, size() \u003e 0, size() \u003c 1) with calls to isEmpty()",
+          "rule": "UseCollectionIsEmpty",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#usecollectionisempty"
+        },
+        {
+          "beginline": 108,
+          "begincolumn": 29,
+          "endline": 108,
+          "endcolumn": 39,
+          "description": "Ensure that resources like this StandardJavaFileManager object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 114,
+          "begincolumn": 13,
+          "endline": 114,
+          "endcolumn": 18,
+          "description": "Avoid unused local variables such as \u0027result\u0027.",
+          "rule": "UnusedLocalVariable",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedlocalvariable"
+        },
+        {
+          "beginline": 116,
+          "begincolumn": 5,
+          "endline": 116,
+          "endcolumn": 23,
+          "description": "Consider simply returning the value vs storing it in local variable \u0027diagnostics\u0027",
+          "rule": "UnnecessaryLocalBeforeReturn",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarylocalbeforereturn"
+        },
+        {
+          "beginline": 148,
+          "begincolumn": 11,
+          "endline": 153,
+          "endcolumn": 3,
+          "description": "The instance method name \u0027check_text\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "MethodNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodnamingconventions"
+        },
+        {
+          "beginline": 151,
+          "begincolumn": 5,
+          "endline": 152,
+          "endcolumn": 22,
+          "description": "Avoid unnecessary if..then..else statements when returning booleans",
+          "rule": "SimplifyBooleanReturns",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#simplifybooleanreturns"
+        },
+        {
+          "beginline": 151,
+          "begincolumn": 19,
+          "endline": 151,
+          "endcolumn": 30,
+          "description": "This statement should have braces",
+          "rule": "ControlStatementBraces",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#controlstatementbraces"
+        },
+        {
+          "beginline": 152,
+          "begincolumn": 10,
+          "endline": 152,
+          "endcolumn": 22,
+          "description": "This statement should have braces",
+          "rule": "ControlStatementBraces",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#controlstatementbraces"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/sqlinjection/mitigation/SqlInjectionLesson13.java",
+      "violations": [
+        {
+          "beginline": 40,
+          "begincolumn": 1,
+          "endline": 46,
+          "endcolumn": 6,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 64,
+          "begincolumn": 17,
+          "endline": 64,
+          "endcolumn": 25,
+          "description": "Ensure that resources like this ResultSet object are closed after use",
+          "rule": "CloseResource",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource"
+        },
+        {
+          "beginline": 71,
+          "begincolumn": 15,
+          "endline": 71,
+          "endcolumn": 34,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/sqlinjection/mitigation/SqlOnlyInputValidation.java",
+      "violations": [
+        {
+          "beginline": 35,
+          "begincolumn": 1,
+          "endline": 36,
+          "endcolumn": 97,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/sqlinjection/mitigation/SqlOnlyInputValidationOnKeywords.java",
+      "violations": [
+        {
+          "beginline": 35,
+          "begincolumn": 1,
+          "endline": 40,
+          "endcolumn": 6,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 53,
+          "begincolumn": 14,
+          "endline": 53,
+          "endcolumn": 75,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/vulnerablecomponents/Contact.java",
+      "violations": [
+        {
+          "beginline": 27,
+          "begincolumn": 10,
+          "endline": 27,
+          "endcolumn": 25,
+          "description": "Unnecessary modifier \u0027public\u0027 on method \u0027getId\u0027: the method is declared in an interface type",
+          "rule": "UnnecessaryModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarymodifier"
+        },
+        {
+          "beginline": 29,
+          "begincolumn": 10,
+          "endline": 29,
+          "endcolumn": 32,
+          "description": "Unnecessary modifier \u0027public\u0027 on method \u0027setId\u0027: the method is declared in an interface type",
+          "rule": "UnnecessaryModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarymodifier"
+        },
+        {
+          "beginline": 31,
+          "begincolumn": 10,
+          "endline": 31,
+          "endcolumn": 31,
+          "description": "Unnecessary modifier \u0027public\u0027 on method \u0027getFirstName\u0027: the method is declared in an interface type",
+          "rule": "UnnecessaryModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarymodifier"
+        },
+        {
+          "beginline": 33,
+          "begincolumn": 10,
+          "endline": 33,
+          "endcolumn": 45,
+          "description": "Unnecessary modifier \u0027public\u0027 on method \u0027setFirstName\u0027: the method is declared in an interface type",
+          "rule": "UnnecessaryModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarymodifier"
+        },
+        {
+          "beginline": 35,
+          "begincolumn": 10,
+          "endline": 35,
+          "endcolumn": 30,
+          "description": "Unnecessary modifier \u0027public\u0027 on method \u0027getLastName\u0027: the method is declared in an interface type",
+          "rule": "UnnecessaryModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarymodifier"
+        },
+        {
+          "beginline": 37,
+          "begincolumn": 10,
+          "endline": 37,
+          "endcolumn": 43,
+          "description": "Unnecessary modifier \u0027public\u0027 on method \u0027setLastName\u0027: the method is declared in an interface type",
+          "rule": "UnnecessaryModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarymodifier"
+        },
+        {
+          "beginline": 39,
+          "begincolumn": 10,
+          "endline": 39,
+          "endcolumn": 27,
+          "description": "Unnecessary modifier \u0027public\u0027 on method \u0027getEmail\u0027: the method is declared in an interface type",
+          "rule": "UnnecessaryModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarymodifier"
+        },
+        {
+          "beginline": 41,
+          "begincolumn": 10,
+          "endline": 41,
+          "endcolumn": 37,
+          "description": "Unnecessary modifier \u0027public\u0027 on method \u0027setEmail\u0027: the method is declared in an interface type",
+          "rule": "UnnecessaryModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarymodifier"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/webwolfintroduction/LandingAssignment.java",
+      "violations": [
+        {
+          "beginline": 59,
+          "begincolumn": 9,
+          "endline": 59,
+          "endcolumn": 11,
+          "description": "Avoid unused local variables such as \u0027uri\u0027.",
+          "rule": "UnusedLocalVariable",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedlocalvariable"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/xss/CrossSiteScriptingLesson3.java",
+      "violations": [
+        {
+          "beginline": 39,
+          "begincolumn": 1,
+          "endline": 45,
+          "endcolumn": 6,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 53,
+          "begincolumn": 29,
+          "endline": 53,
+          "endcolumn": 93,
+          "description": "This statement should have braces",
+          "rule": "ControlStatementBraces",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#controlstatementbraces"
+        },
+        {
+          "beginline": 57,
+          "begincolumn": 25,
+          "endline": 57,
+          "endcolumn": 32,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 73,
+          "begincolumn": 11,
+          "endline": 73,
+          "endcolumn": 66,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        },
+        {
+          "beginline": 76,
+          "begincolumn": 11,
+          "endline": 76,
+          "endcolumn": 65,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/xss/CrossSiteScriptingLesson4.java",
+      "violations": [
+        {
+          "beginline": 39,
+          "begincolumn": 1,
+          "endline": 39,
+          "endcolumn": 52,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/xss/CrossSiteScriptingLesson5a.java",
+      "violations": [
+        {
+          "beginline": 38,
+          "begincolumn": 1,
+          "endline": 44,
+          "endcolumn": 6,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 56,
+          "begincolumn": 29,
+          "endline": 56,
+          "endcolumn": 32,
+          "description": "The method parameter name \u0027QTY1\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 57,
+          "begincolumn": 29,
+          "endline": 57,
+          "endcolumn": 32,
+          "description": "The method parameter name \u0027QTY2\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 58,
+          "begincolumn": 29,
+          "endline": 58,
+          "endcolumn": 32,
+          "description": "The method parameter name \u0027QTY3\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 59,
+          "begincolumn": 29,
+          "endline": 59,
+          "endcolumn": 32,
+          "description": "The method parameter name \u0027QTY4\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 87,
+          "begincolumn": 11,
+          "endline": 87,
+          "endcolumn": 54,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/xss/CrossSiteScriptingLesson6a.java",
+      "violations": [
+        {
+          "beginline": 36,
+          "begincolumn": 1,
+          "endline": 42,
+          "endcolumn": 6,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 48,
+          "begincolumn": 54,
+          "endline": 48,
+          "endcolumn": 65,
+          "description": "The method parameter name \u0027DOMTestRoute\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/xss/CrossSiteScriptingQuiz.java",
+      "violations": [
+        {
+          "beginline": 43,
+          "begincolumn": 30,
+          "endline": 43,
+          "endcolumn": 48,
+          "description": "The method parameter name \u0027question_0_solution\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 44,
+          "begincolumn": 30,
+          "endline": 44,
+          "endcolumn": 48,
+          "description": "The method parameter name \u0027question_1_solution\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 45,
+          "begincolumn": 30,
+          "endline": 45,
+          "endcolumn": 48,
+          "description": "The method parameter name \u0027question_2_solution\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 46,
+          "begincolumn": 30,
+          "endline": 46,
+          "endcolumn": 48,
+          "description": "The method parameter name \u0027question_3_solution\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        },
+        {
+          "beginline": 47,
+          "begincolumn": 30,
+          "endline": 47,
+          "endcolumn": 48,
+          "description": "The method parameter name \u0027question_4_solution\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "FormalParameterNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#formalparameternamingconventions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/xss/DOMCrossSiteScripting.java",
+      "violations": [
+        {
+          "beginline": 48,
+          "begincolumn": 12,
+          "endline": 48,
+          "endcolumn": 75,
+          "description": "Position literals first in String comparisons",
+          "rule": "LiteralsFirstInComparisons",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/xss/DOMCrossSiteScriptingVerifier.java",
+      "violations": [
+        {
+          "beginline": 36,
+          "begincolumn": 1,
+          "endline": 44,
+          "endcolumn": 6,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/lessons/xss/stored/StoredXssComments.java",
+      "violations": [
+        {
+          "beginline": 106,
+          "begincolumn": 15,
+          "endline": 106,
+          "endcolumn": 74,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 108,
+          "begincolumn": 15,
+          "endline": 108,
+          "endcolumn": 73,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/server/StartWebGoat.java",
+      "violations": [
+        {
+          "beginline": 36,
+          "begincolumn": 27,
+          "endline": 50,
+          "endcolumn": 1,
+          "description": "All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.",
+          "rule": "UseUtilityClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#useutilityclass"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/server/StartupMessage.java",
+      "violations": [
+        {
+          "beginline": 32,
+          "begincolumn": 46,
+          "endline": 32,
+          "endcolumn": 47,
+          "description": "Document empty method body",
+          "rule": "UncommentedEmptyMethodBody",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_documentation.html#uncommentedemptymethodbody"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/webwolf/FileServer.java",
+      "violations": [
+        {
+          "beginline": 73,
+          "begincolumn": 3,
+          "endline": 73,
+          "endcolumn": 37,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        },
+        {
+          "beginline": 94,
+          "begincolumn": 3,
+          "endline": 94,
+          "endcolumn": 31,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/webwolf/jwt/JWTToken.java",
+      "violations": [
+        {
+          "beginline": 48,
+          "begincolumn": 39,
+          "endline": 48,
+          "endcolumn": 45,
+          "description": "Avoid using implementation types like \u0027TreeMap\u0027; use the interface instead",
+          "rule": "LooseCoupling",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#loosecoupling"
+        },
+        {
+          "beginline": 94,
+          "begincolumn": 9,
+          "endline": 96,
+          "endcolumn": 7,
+          "description": "Avoid empty catch blocks",
+          "rule": "EmptyCatchBlock",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#emptycatchblock"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/webwolf/mailbox/Email.java",
+      "violations": [
+        {
+          "beginline": 29,
+          "begincolumn": 1,
+          "endline": 29,
+          "endcolumn": 27,
+          "description": "Unused import \u0027javax.persistence.*\u0027",
+          "rule": "UnnecessaryImport",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryimport"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/webwolf/requests/LandingPage.java",
+      "violations": [
+        {
+          "beginline": 48,
+          "begincolumn": 7,
+          "endline": 48,
+          "endcolumn": 68,
+          "description": "Logger calls should be surrounded by log level guards.",
+          "rule": "GuardLogStatement",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#guardlogstatement"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/webwolf/requests/Requests.java",
+      "violations": [
+        {
+          "beginline": 53,
+          "begincolumn": 1,
+          "endline": 53,
+          "endcolumn": 36,
+          "description": "Avoid the use of value in annotations when its the only element",
+          "rule": "UnnecessaryAnnotationValueElement",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/main/java/org/owasp/webgoat/webwolf/user/WebGoatUser.java",
+      "violations": [
+        {
+          "beginline": 47,
+          "begincolumn": 13,
+          "endline": 47,
+          "endcolumn": 28,
+          "description": "Document empty constructor",
+          "rule": "UncommentedEmptyConstructor",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_documentation.html#uncommentedemptyconstructor"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/container/session/LabelDebuggerTest.java",
+      "violations": [
+        {
+          "beginline": 19,
+          "begincolumn": 28,
+          "endline": 19,
+          "endcolumn": 41,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 26,
+          "begincolumn": 28,
+          "endline": 26,
+          "endcolumn": 41,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 33,
+          "begincolumn": 28,
+          "endline": 33,
+          "endcolumn": 41,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        },
+        {
+          "beginline": 40,
+          "begincolumn": 28,
+          "endline": 40,
+          "endcolumn": 41,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/container/session/LessonTrackerTest.java",
+      "violations": [
+        {
+          "beginline": 55,
+          "begincolumn": 5,
+          "endline": 55,
+          "endcolumn": 25,
+          "description": "Unnecessary use of fully qualified name \u0027Assertions.assertThat\u0027 due to existing static import \u0027org.assertj.core.api.Assertions.assertThat\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/container/users/UserValidatorTest.java",
+      "violations": [
+        {
+          "beginline": 29,
+          "begincolumn": 5,
+          "endline": 29,
+          "endcolumn": 25,
+          "description": "Unnecessary use of fully qualified name \u0027Assertions.assertThat\u0027 due to existing static import \u0027org.assertj.core.api.Assertions.assertThat\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        },
+        {
+          "beginline": 41,
+          "begincolumn": 5,
+          "endline": 41,
+          "endcolumn": 25,
+          "description": "Unnecessary use of fully qualified name \u0027Assertions.assertThat\u0027 due to existing static import \u0027org.assertj.core.api.Assertions.assertThat\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        },
+        {
+          "beginline": 56,
+          "begincolumn": 5,
+          "endline": 56,
+          "endcolumn": 25,
+          "description": "Unnecessary use of fully qualified name \u0027Assertions.assertThat\u0027 due to existing static import \u0027org.assertj.core.api.Assertions.assertThat\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/lessons/authbypass/BypassVerificationTest.java",
+      "violations": [
+        {
+          "beginline": 40,
+          "begincolumn": 11,
+          "endline": 40,
+          "endcolumn": 26,
+          "description": "Perhaps \u0027mockMvc\u0027 could be replaced by a local variable.",
+          "rule": "SingularField",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#singularfield"
+        },
+        {
+          "beginline": 51,
+          "begincolumn": 13,
+          "endline": 51,
+          "endcolumn": 16,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/lessons/chromedevtools/ChromeDevToolsTest.java",
+      "violations": [
+        {
+          "beginline": 30,
+          "begincolumn": 10,
+          "endline": 38,
+          "endcolumn": 3,
+          "description": "The JUnit 5 test method name \u0027NetworkAssignmentTest_Success\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "MethodNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodnamingconventions"
+        },
+        {
+          "beginline": 41,
+          "begincolumn": 10,
+          "endline": 49,
+          "endcolumn": 3,
+          "description": "The JUnit 5 test method name \u0027NetworkAssignmentTest_Fail\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "MethodNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodnamingconventions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/lessons/cryptography/CryptoUtilTest.java",
+      "violations": [
+        {
+          "beginline": 25,
+          "begincolumn": 7,
+          "endline": 25,
+          "endcolumn": 68,
+          "description": "Logger calls should be surrounded by log level guards.",
+          "rule": "GuardLogStatement",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#guardlogstatement"
+        },
+        {
+          "beginline": 29,
+          "begincolumn": 7,
+          "endline": 29,
+          "endcolumn": 7,
+          "description": "Unnecessary semicolon",
+          "rule": "UnnecessarySemicolon",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessarysemicolon"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/lessons/deserialization/DeserializeTest.java",
+      "violations": [
+        {
+          "beginline": 23,
+          "begincolumn": 30,
+          "endline": 23,
+          "endcolumn": 72,
+          "description": "When doing a String.toLowerCase()/toUpperCase() call, use a Locale",
+          "rule": "UseLocaleWithCaseConversions",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/lessons/jwt/JWTRefreshEndpointTest.java",
+      "violations": [
+        {
+          "beginline": 69,
+          "begincolumn": 12,
+          "endline": 69,
+          "endcolumn": 22,
+          "description": "Avoid unused local variables such as \u0027accessToken\u0027.",
+          "rule": "UnusedLocalVariable",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedlocalvariable"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/lessons/jwt/JWTVotesEndpointTest.java",
+      "violations": [
+        {
+          "beginline": 210,
+          "begincolumn": 12,
+          "endline": 210,
+          "endcolumn": 15,
+          "description": "Return an empty collection rather than null.",
+          "rule": "ReturnEmptyCollectionRatherThanNull",
+          "ruleset": "Error Prone",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#returnemptycollectionratherthannull"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/lessons/jwt/TokenTest.java",
+      "violations": [
+        {
+          "beginline": 55,
+          "begincolumn": 9,
+          "endline": 55,
+          "endcolumn": 11,
+          "description": "Avoid unused local variables such as \u0027jwt\u0027.",
+          "rule": "UnusedLocalVariable",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedlocalvariable"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/lessons/missingac/MissingFunctionACHiddenMenusTest.java",
+      "violations": [
+        {
+          "beginline": 50,
+          "begincolumn": 10,
+          "endline": 61,
+          "endcolumn": 3,
+          "description": "The JUnit 5 test method name \u0027HiddenMenusSuccess\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "MethodNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodnamingconventions"
+        },
+        {
+          "beginline": 64,
+          "begincolumn": 10,
+          "endline": 75,
+          "endcolumn": 3,
+          "description": "The JUnit 5 test method name \u0027HiddenMenusClose\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "MethodNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodnamingconventions"
+        },
+        {
+          "beginline": 78,
+          "begincolumn": 10,
+          "endline": 89,
+          "endcolumn": 3,
+          "description": "The JUnit 5 test method name \u0027HiddenMenusFailure\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "MethodNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodnamingconventions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson10Test.java",
+      "violations": [
+        {
+          "beginline": 50,
+          "begincolumn": 53,
+          "endline": 50,
+          "endcolumn": 60,
+          "description": "This statement should have braces",
+          "rule": "ControlStatementBraces",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#controlstatementbraces"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/lessons/sqlinjection/introduction/SqlInjectionLesson9Test.java",
+      "violations": [
+        {
+          "beginline": 55,
+          "begincolumn": 53,
+          "endline": 55,
+          "endcolumn": 60,
+          "description": "This statement should have braces",
+          "rule": "ControlStatementBraces",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#controlstatementbraces"
+        },
+        {
+          "beginline": 86,
+          "begincolumn": 53,
+          "endline": 86,
+          "endcolumn": 60,
+          "description": "This statement should have braces",
+          "rule": "ControlStatementBraces",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#controlstatementbraces"
+        },
+        {
+          "beginline": 117,
+          "begincolumn": 53,
+          "endline": 117,
+          "endcolumn": 60,
+          "description": "This statement should have braces",
+          "rule": "ControlStatementBraces",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#controlstatementbraces"
+        },
+        {
+          "beginline": 144,
+          "begincolumn": 53,
+          "endline": 144,
+          "endcolumn": 60,
+          "description": "This statement should have braces",
+          "rule": "ControlStatementBraces",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#controlstatementbraces"
+        },
+        {
+          "beginline": 170,
+          "begincolumn": 53,
+          "endline": 170,
+          "endcolumn": 60,
+          "description": "This statement should have braces",
+          "rule": "ControlStatementBraces",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#controlstatementbraces"
+        },
+        {
+          "beginline": 185,
+          "begincolumn": 10,
+          "endline": 197,
+          "endcolumn": 3,
+          "description": "The JUnit 5 test method name \u0027SmithIsMostEarningCompletesAssignment\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "MethodNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodnamingconventions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/lessons/sqlinjection/mitigation/SqlInjectionLesson13Test.java",
+      "violations": [
+        {
+          "beginline": 124,
+          "begincolumn": 30,
+          "endline": 124,
+          "endcolumn": 46,
+          "description": "Do not hard code the IP address ",
+          "rule": "AvoidUsingHardCodedIP",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#avoidusinghardcodedip"
+        },
+        {
+          "beginline": 134,
+          "begincolumn": 30,
+          "endline": 134,
+          "endcolumn": 46,
+          "description": "Do not hard code the IP address ",
+          "rule": "AvoidUsingHardCodedIP",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#avoidusinghardcodedip"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/lessons/ssrf/SSRFTest1.java",
+      "violations": [
+        {
+          "beginline": 21,
+          "begincolumn": 8,
+          "endline": 52,
+          "endcolumn": 1,
+          "description": "The class name \u0027SSRFTest1\u0027 doesn\u0027t match \u0027^Test.*$|^[A-Z][a-zA-Z0-9]*Test(s|Case)?$\u0027",
+          "rule": "ClassNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#classnamingconventions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/lessons/ssrf/SSRFTest2.java",
+      "violations": [
+        {
+          "beginline": 43,
+          "begincolumn": 8,
+          "endline": 66,
+          "endcolumn": 1,
+          "description": "The class name \u0027SSRFTest2\u0027 doesn\u0027t match \u0027^Test.*$|^[A-Z][a-zA-Z0-9]*Test(s|Case)?$\u0027",
+          "rule": "ClassNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#classnamingconventions"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/lessons/xss/DOMCrossSiteScriptingTest.java",
+      "violations": [
+        {
+          "beginline": 49,
+          "begincolumn": 24,
+          "endline": 49,
+          "endcolumn": 26,
+          "description": "Avoid unused local variables such as \u0027xss\u0027.",
+          "rule": "UnusedLocalVariable",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#unusedlocalvariable"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/lessons/xss/StoredXssCommentsTest.java",
+      "violations": [
+        {
+          "beginline": 91,
+          "begincolumn": 13,
+          "endline": 91,
+          "endcolumn": 89,
+          "description": "Useless parentheses.",
+          "rule": "UselessParentheses",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#uselessparentheses"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/lessons/xxe/BlindSendFileAssignmentTest.java",
+      "violations": [
+        {
+          "beginline": 120,
+          "begincolumn": 22,
+          "endline": 120,
+          "endcolumn": 41,
+          "description": "Unnecessary use of fully qualified name \u0027WireMock.urlMatching\u0027 due to existing static import \u0027com.github.tomakehurst.wiremock.client.WireMock.urlMatching\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        },
+        {
+          "beginline": 149,
+          "begincolumn": 22,
+          "endline": 149,
+          "endcolumn": 41,
+          "description": "Unnecessary use of fully qualified name \u0027WireMock.urlMatching\u0027 due to existing static import \u0027com.github.tomakehurst.wiremock.client.WireMock.urlMatching\u0027",
+          "rule": "UnnecessaryFullyQualifiedName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname"
+        }
+      ]
+    },
+    {
+      "filename": "../../../vuln-apps/WebGoat/src/test/java/org/owasp/webgoat/webwolf/user/UserServiceTest.java",
+      "violations": [
+        {
+          "beginline": 60,
+          "begincolumn": 10,
+          "endline": 66,
+          "endcolumn": 3,
+          "description": "The JUnit 5 test method name \u0027testLoadUserByUsername_NULL\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "MethodNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodnamingconventions"
+        }
+      ]
+    }
+  ],
+  "suppressedViolations": [],
+  "processingErrors": [],
+  "configurationErrors": []
+}
